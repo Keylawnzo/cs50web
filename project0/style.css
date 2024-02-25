@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+}
+
+.searchform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+}
+
+input[type=text] {
+    height: auto;
+    width: 520px;
+    border: 1px solid lightgrey;
+    border-radius: 40px;
+    padding: 16px 26px;
+}
+
+input[type=submit], .luckybtn {
+    padding: 11px 16px;
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+input[type=submit]:hover, a:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}

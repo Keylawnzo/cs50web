@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="main">
+            <div class="logo">
+                <img src="googlelogo.png">
+            </div>
+            <div class="searchform">
+                <form action="https://google.com/search">
+                    <div class="textinput">
+                        <input type="text" name="q">
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Google Search">
+                        <a class="luckybtn" href="https://doodles.google/">I'm feeling lucky</a>
+                    </div>
+                </form>
+            </div>
+            <div class="buttons"></div>
+        </div>
     </body>
 </html>
