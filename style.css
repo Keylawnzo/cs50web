@@ -189,9 +189,18 @@ button {
     top: 5px;
 }
 
-.icon-credit {
+.adv-button {
+    display: flex;
+    justify-content: end;
+    padding: 20px 10px;
+}
+
+.adv-button input[type=submit] {
+    background-image: linear-gradient(#4d90fe, #4787ed);
     font-size: 11px;
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
+    font-weight: bold;
+    padding: 8px;
+    color: #FFF;
+    border-radius: 3px;
+    border: 1px solid #3974d1;
 }
