@@ -43,7 +43,7 @@ input:hover {
     width: 520px;
     border: 1px solid lightgrey;
     border-radius: 40px;
-    padding: 16px 26px;
+    padding: 16px 40px;
 }
 
 .main input[type=submit], .luckybtn {
@@ -203,4 +203,11 @@ button {
     color: #FFF;
     border-radius: 3px;
     border: 1px solid #3974d1;
+}
+
+img.grey-search-icon {
+    position: relative;
+    top: 4px;
+    right: -45px;
+    filter: grayscale(1);
 }
